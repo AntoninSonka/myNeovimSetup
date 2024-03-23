@@ -164,11 +164,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/antonin/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
-  vmux = {
-    loaded = true,
-    path = "/home/antonin/.local/share/nvim/site/pack/packer/start/vmux",
-    url = "https://github.com/yazgoo/vmux"
   }
 }
 

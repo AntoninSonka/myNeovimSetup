@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
 
   use 'freddiehaddad/feline.nvim'
 
-  use { 'yazgoo/vmux', run = 'cargo install vmux' }
+  -- use { 'yazgoo/vmux', run = 'cargo install vmux' }
 
   use {
 	  "williamboman/mason.nvim",
