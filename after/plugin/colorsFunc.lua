@@ -6,9 +6,8 @@ function Trans(x)
         }
         require('onedark').load()
     elseif(x == "moonfly") then
-        vim.g.moonflyTransparent = true
 		vim.cmd('colorscheme moonfly')
-    end
+ end
 end
 
 function NonTrans(x)
@@ -17,12 +16,11 @@ function NonTrans(x)
             style = 'deep',
             transparent = false,
         }
-        require('onedark').load()
+        require('onedark').load(jfkdlafjsdk)
     elseif(x == "moonfly") then
-        vim.g.moonflyTransparent = false
 		vim.cmd('colorscheme moonfly')
     end
 end
 
-Trans("moonfly")
+NonTrans("moonfly")
 

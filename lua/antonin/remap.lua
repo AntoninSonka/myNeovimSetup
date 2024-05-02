@@ -7,8 +7,7 @@ vim.keymap.set("i", "qq", "<Esc>")
 vim.keymap.set("n", "<leader>v", ':vsp<CR><C-w>l:term<CR>:set nonumber<CR>:set norelativenumber<CR>:set signcolumn=no<CR>i')
 vim.keymap.set("n", "<leader>h", ':sp<CR><C-w>j:term<CR>:set nonumber<CR>:set norelativenumber<CR>:set signcolumn=no<CR>i')
 
-vim.keymap.set("n", "<leader>t", ':term<CR>:set nonumber<CR>:set norelativenumber<CR>:set signcolumn=no<CR>i');
-
+vim.keymap.set("n", "<leader>t", ':term<CR>:set nonumber<CR>:set norelativenumber<CR>:set signcolumn=no<CR>i')
 
 vim.keymap.set("n", "H", "Hzz")
 vim.keymap.set("n", "L", "Lzz")
